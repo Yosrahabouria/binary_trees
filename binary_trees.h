@@ -16,10 +16,10 @@
  */
 struct binary_tree_b
 {
-    int i;
-    struct binary_tree_b *parent;
-    struct binary_tree_b *left;
-    struct binary_tree_b *right;
+	int i;
+	struct binary_tree_b *parent;
+	struct binary_tree_b *left;
+	struct binary_tree_b *right;
 };
 
 typedef struct binary_tree_b binary_tree_t;
