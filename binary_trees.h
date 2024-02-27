@@ -9,14 +9,14 @@
 /**
  * struct binary_tree_b - Binary tree node
  *
- * @i: input value
+ * @n: input value
  * @parent: input value
  * @left: input value
  * @right: input value
  */
 struct binary_tree_b
 {
-	int i;
+	int n;
 	struct binary_tree_b *parent;
 	struct binary_tree_b *left;
 	struct binary_tree_b *right;
